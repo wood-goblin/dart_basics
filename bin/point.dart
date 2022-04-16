@@ -3,11 +3,11 @@ import 'dart:math';
 class Point {
   final double x, y, z;
 
-  // Point(this.x, this.y, this.z);
-  Point(double x, double y, double z)
-      : x = x,
-        y = y,
-        z = z;
+  Point(this.x, this.y, this.z);
+  // Point(double x, double y, double z)
+  //     : x = x,
+  //       y = y,
+  //       z = z;
 
   // расстояние от текущей точки до указанной в параметре
   double distanceTo(Point point) {
