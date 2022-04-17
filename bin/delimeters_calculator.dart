@@ -11,7 +11,7 @@ class DelimetersCalculator {
 
   // НОК
   int nok() {
-    return (a * b / _nod(a, b)).toInt();
+    return a * b ~/ _nod(a, b);
   }
 
   // print nod/nok result
