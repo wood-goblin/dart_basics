@@ -1,7 +1,6 @@
 import 'dart:math';
 
 class IntegerConverter {
-  IntegerConverter();
 
   // конвертация из десятичной системы в двоичную
   String toBinary(int num) {
